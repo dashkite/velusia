@@ -22,7 +22,11 @@
       "browser": "./build/browser/src/index.js"
     }
   },
-  "main": "build/browser/src/index.js",
+  "imports": {
+    "#configuration": "./build/browser/src/configuration.js",
+    "#helpers": "./build/browser/src/helpers/index.js",
+    "#helpers/*": "./build/browser/src/helpers/*.js"
+  },
   "files": [
     "build/browser/src"
   ],
