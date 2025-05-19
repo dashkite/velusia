@@ -1,5 +1,4 @@
 import HTML from "@dashkite/html-render"
-import * as Render from "@dashkite/rio-arriba/render"
 import Format from "@dashkite/format-text"
 import { Gadget } from "@dashkite/talisa"
 import icon from "#helpers/icon"

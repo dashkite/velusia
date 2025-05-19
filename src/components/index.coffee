@@ -1,3 +1,4 @@
-import "./sites"
+import "./connectors"
 import "./gadgets"
 import "./media"
+import "./sites"

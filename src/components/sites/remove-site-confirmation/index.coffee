@@ -14,12 +14,12 @@ import logic from "./logic"
 import css from "./css"
 
 class extends do Fn.pipe [
-    shadowed, styleable, renderable
+    shadowed, renderable, styleable
     reactive, recurrent
     state, events
   ]
 
-  @tag "remove-gadget-confirmation"
+  @tag "remove-site-confirmation"
 
   @sheets [ component, forms, compact, css ]
 

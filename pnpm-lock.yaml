@@ -7,6 +7,46 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@dashkite/aldera':
+        specifier: link:../aldera
+        version: link:../aldera
+      '@dashkite/format-text':
+        specifier: link:../format-text
+        version: link:../format-text
+      '@dashkite/html-render':
+        specifier: link:../html-render
+        version: link:../html-render
+      '@dashkite/joy':
+        specifier: link:../joy
+        version: link:../joy
+      '@dashkite/posh':
+        specifier: link:../posh
+        version: link:../posh
+      '@dashkite/profile':
+        specifier: link:../profile
+        version: link:../profile
+      '@dashkite/reactive':
+        specifier: link:../reactive
+        version: link:../reactive
+      '@dashkite/registry':
+        specifier: link:../registry
+        version: link:../registry
+      '@dashkite/talisa':
+        specifier: link:../talisa
+        version: link:../talisa
+      '@dashkite/validator':
+        specifier: link:../validator
+        version: link:../validator
+      '@dashkite/vellum':
+        specifier: link:../vellum
+        version: link:../vellum
+      '@dashkite/wayland':
+        specifier: link:../wayland
+        version: link:../wayland
+      '@dashkite/zest':
+        specifier: link:../zest
+        version: link:../zest
     devDependencies:
       '@dashkite/amen':
         specifier: ^0.2.0
@@ -17,6 +57,9 @@ importers:
       '@dashkite/assert':
         specifier: ^0.1.4
         version: 0.1.4
+      '@dashkite/drn-sky':
+        specifier: link:../drn-sky
+        version: link:../drn-sky
       '@dashkite/genie':
         specifier: link:../genie
         version: link:../genie
@@ -26,9 +69,21 @@ importers:
       '@dashkite/genie-coffee':
         specifier: link:../genie-coffee
         version: link:../genie-coffee
+      '@dashkite/genie-drn':
+        specifier: link:../genie-drn
+        version: link:../genie-drn
       '@dashkite/genie-module':
         specifier: link:../genie-module
         version: link:../genie-module
+      '@dashkite/genie-pug':
+        specifier: link:../genie-pug
+        version: link:../genie-pug
+      '@dashkite/genie-stylus':
+        specifier: link:../genie-stylus
+        version: link:../genie-stylus
+      '@dashkite/genie-yaml':
+        specifier: link:../genie-yaml
+        version: link:../genie-yaml
 
 packages:
 

@@ -3,7 +3,7 @@ import { show } from "./show"
 import { inductor } from "./inductor"
 import { toggle } from "./toggle"
 
-showtime = Fn.bpipe [
+showtime = Fn.pipe [
   show
   inductor 
     on: "show"

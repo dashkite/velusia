@@ -1,4 +1,3 @@
-import * as DOM from "@dashkite/dominator"
 import { Image } from "@dashkite/aldera"
 
 import configuration from "#configuration"
@@ -13,7 +12,7 @@ state = ( base ) ->
   class extends base
 
     show: ->
-      { site, image } = DOM.data @dom
+      { site, image } = ( $ @dom ).data
       @state = await State.resolve 
         site: { origin, bindings: { site }}
         internal: bindings: { image }   

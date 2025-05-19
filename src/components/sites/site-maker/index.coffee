@@ -6,8 +6,7 @@ import {
 
 import { component, forms, animations } from "@dashkite/posh"
 
-import { showtime } from "#reactors"
-import { validating } from "#mixins"
+import { showtime, validating } from "#helpers"
 
 import css from "./css"
 
@@ -16,8 +15,8 @@ import logic from "./logic"
 
 class extends do Fn.pipe [
     shadowed, renderable, styleable, 
-    reactive, recurrent, eventful
-    state
+    reactive, recurrent, eventful,
+    validating, state
   ]
 
   @tag "site-maker"

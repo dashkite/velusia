@@ -19,7 +19,7 @@ class extends do Fn.pipe [
     events, state
   ]
 
-  @tag "sansa-select-image"
+  @tag "image-selector"
 
   @sheets [
     component
