@@ -1,7 +1,7 @@
-import HTML from "@dashkite/html-render"
+import HTML from "@dashkite/domo"
 import icon from "#helpers/icon"
 
-template = ( gadget ) ->
+template = ({ selected }) ->
 
   HTML.main [
 
@@ -13,7 +13,7 @@ template = ( gadget ) ->
 
     HTML.div [
       HTML.p "Are you sure you want to remove
-        '#{ gadget.name }'?"
+        '#{ selected }'?"
 
       HTML.div class: "panel", [
         HTML.button name: "remove", "Remove"

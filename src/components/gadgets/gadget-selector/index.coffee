@@ -19,7 +19,7 @@ class extends do Fn.pipe [
     state, events
   ]
 
-  @tag "gadget-picker"
+  @tag "gadget-selector"
 
   @sheets [ component, forms, compact, css ]
 

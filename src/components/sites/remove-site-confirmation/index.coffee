@@ -4,7 +4,7 @@ import {
   reactive, recurrent
 } from "@dashkite/wayland"
 
-import { component, forms, compact } from "@dashkite/posh"
+import { component, forms, compact, animations } from "@dashkite/posh"
 
 import { showtime } from "#helpers"
 import state from "#helpers/branch-editor"
@@ -21,6 +21,6 @@ class extends do Fn.pipe [
 
   @tag "remove-site-confirmation"
 
-  @sheets [ component, forms, compact, css ]
+  @sheets [ component, forms, compact, animations, css ]
 
   @reactors [ showtime, logic ]

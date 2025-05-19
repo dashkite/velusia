@@ -11,6 +11,9 @@ importers:
       '@dashkite/aldera':
         specifier: link:../aldera
         version: link:../aldera
+      '@dashkite/domo':
+        specifier: link:../domo
+        version: link:../domo
       '@dashkite/format-text':
         specifier: link:../format-text
         version: link:../format-text
@@ -20,6 +23,9 @@ importers:
       '@dashkite/joy':
         specifier: link:../joy
         version: link:../joy
+      '@dashkite/messages':
+        specifier: link:../messages
+        version: link:../messages
       '@dashkite/posh':
         specifier: link:../posh
         version: link:../posh

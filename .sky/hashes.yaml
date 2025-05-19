@@ -1,5 +1,5 @@
 build/browser/src/helpers/index.js: qGMi2AMz
-build/browser/src/index.js: B2muoj6T
+build/browser/src/index.js: Bxw-SZvv
 build/browser/src/components/media/image-selector/html/templates.js: BCLsbH6J
 build/browser/src/components/media/image-selector/html/provide-url.js: pV-vqVbq
 build/browser/src/helpers/messages/index.js: esNm36j9
@@ -57,7 +57,7 @@ build/browser/src/components/sites/site-maker/index.js: BYc3Qq4w
 build/browser/src/components/sites/site-list/index.js: vMFoyP2h
 build/browser/src/components/sites/site-maker/state.js: slxvDvIx
 build/browser/src/components/gadgets/gadget-selector/events.js: m-IawK-L
-build/browser/src/components/gadgets/gadget-selector/index.js: XrpY9Sfv
+build/browser/src/components/gadgets/gadget-selector/index.js: Bv0Pp-vw
 build/browser/src/components/gadgets/page-editor/index.js: sdnCDkO2
 build/browser/src/components/gadgets/gadget-selector/html.js: j2KCusoH
 build/browser/src/configuration.js: '-9NDk6P4'
@@ -68,7 +68,7 @@ build/browser/src/components/media/image-selector/css.js: uk5uChtf
 build/browser/src/components/gadgets/remove-gadget-confirmation/css.js: QgZLwmWV
 build/browser/src/helpers/validating.js: mgy1h4D7
 build/browser/src/helpers/messages/data.js: gdatoCBq
-build/browser/src/components/gadgets/gadget-selector/css.js: sayEshbY
+build/browser/src/components/gadgets/gadget-selector/css.js: '-WSzH6gV'
 build/browser/src/helpers/pending.js: BAetBKME
 build/browser/src/components/identity/email-connector/logic.js: TnaBkOEr
 build/browser/src/components/identity/email-connector/index.js: Kpulj63Y
@@ -76,12 +76,14 @@ build/browser/src/components/connect/index.js: XUhiH69K
 build/browser/src/components/connect/email-connector/index.js: XMFWj_sy
 build/browser/src/components/connect/email-connector/logic.js: wZCu2sIp
 build/browser/src/components/connect/email-connector/html.js: R4EraX5x
-build/browser/src/components/sites/remove-site-confirmation/html.js: 6AjXH53B
+build/browser/src/components/sites/remove-site-confirmation/html.js: S47c1z5M
 build/browser/src/components/sites/remove-site-confirmation/css.js: QgZLwmWV
-build/browser/src/components/sites/remove-site-confirmation/index.js: Zj7aMQRA
+build/browser/src/components/sites/remove-site-confirmation/index.js: vsbRT-PG
 build/browser/src/components/sites/remove-site-confirmation/events.js: ev94FeYR
-build/browser/src/components/sites/remove-site-confirmation/logic.js: 548aAPgO
+build/browser/src/components/sites/remove-site-confirmation/logic.js: Ii64fdhu
 build/browser/src/components/connectors/index.js: t9X-0sPi
-build/browser/src/components/connectors/email-connector/index.js: 9hB9wuIT
+build/browser/src/components/connectors/email-connector/index.js: oO5J90g3
 build/browser/src/components/connectors/email-connector/html.js: xWel8Q--
 build/browser/src/components/connectors/email-connector/logic.js: OrdZOVhl
+build/browser/src/messages/data.js: gdatoCBq
+build/browser/src/messages/index.js: i10u5m94

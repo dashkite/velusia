@@ -1,2 +1,3 @@
-import "@dashkite/vellum"
+import "./messages"
 import "./components"
+import "@dashkite/vellum"

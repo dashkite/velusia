@@ -50,9 +50,11 @@
   },
   "dependencies": {
     "@dashkite/aldera": "link:../aldera",
+    "@dashkite/domo": "link:../domo",
     "@dashkite/format-text": "link:../format-text",
     "@dashkite/html-render": "link:../html-render",
     "@dashkite/joy": "link:../joy",
+    "@dashkite/messages": "link:../messages",
     "@dashkite/posh": "link:../posh",
     "@dashkite/profile": "link:../profile",
     "@dashkite/reactive": "link:../reactive",
