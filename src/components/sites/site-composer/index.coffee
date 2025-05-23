@@ -1,7 +1,7 @@
 import * as Fn from "@dashkite/joy/function"
 import {
   shadowed, renderable, styleable, 
-  reactive, recurrent, eventful
+  reactive, eventful
 } from "@dashkite/wayland"
 
 import { component, forms, animations } from "@dashkite/posh"
@@ -15,11 +15,11 @@ import logic from "./logic"
 
 class extends do Fn.pipe [
     shadowed, renderable, styleable, 
-    reactive, recurrent, eventful,
+    reactive, eventful,
     validating, state
   ]
 
-  @tag "site-maker"
+  @tag "site-composer"
 
   @sheets [ 
     css

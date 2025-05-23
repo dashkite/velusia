@@ -48,7 +48,7 @@ build/browser/src/components/media/index.js: hJURaUvB
 build/browser/src/components/sites/site-maker/logic.js: pIlFYH90
 build/browser/src/components/gadgets/remove-gadget-confirmation/events.js: Gfiqb173
 build/browser/src/components/sites/site-list/html.js: pK6olBCZ
-build/browser/src/components/sites/index.js: OYzl5rPS
+build/browser/src/components/sites/index.js: jBvKOpdN
 build/browser/src/components/gadgets/index.js: dqYYl37K
 build/browser/src/components/gadgets/page-editor/logic.js: XhwH7qdQ
 build/browser/src/components/gadgets/remove-gadget-confirmation/index.js: u8oxuei6
@@ -87,3 +87,8 @@ build/browser/src/components/connectors/email-connector/html.js: xWel8Q--
 build/browser/src/components/connectors/email-connector/logic.js: OrdZOVhl
 build/browser/src/messages/data.js: gdatoCBq
 build/browser/src/messages/index.js: i10u5m94
+build/browser/src/components/sites/site-composer/css.js: wNHH1OeL
+build/browser/src/components/sites/site-composer/logic.js: V4cOyRRo
+build/browser/src/components/sites/site-composer/index.js: lR1x7lF3
+build/browser/src/components/sites/site-composer/state.js: i7C9zDwm
+build/browser/src/components/sites/site-composer/html.js: mIveRq33

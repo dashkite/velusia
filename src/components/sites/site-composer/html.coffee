@@ -12,10 +12,9 @@ template = ({ data, errors }) ->
 
     HTML.div [
 
-      HTML.tag "vellum-field", 
+      HTML.tag "form-field", 
         name: "title"
         type: "text"
-        required: true
         value: data.title
         [
           HTML.label slot: "label", "Title"
@@ -24,15 +23,15 @@ template = ({ data, errors }) ->
             HTML.span slot: "error", errors.title.message
         ]
 
-      HTML.tag "vellum-field",
-        name: "description"
-        type: "prose"
-        value: data.description
-        class: "short"
-        [
-          HTML.label slot: "label", "Description"
-          HTML.span slot: "hint", "A brief description of your site"
-        ]
+      # HTML.tag "vellum-field",
+      #   name: "description"
+      #   type: "prose"
+      #   value: data.description
+      #   class: "short"
+      #   [
+      #     HTML.label slot: "label", "Description"
+      #     HTML.span slot: "hint", "A brief description of your site"
+      #   ]
 
     ]
 
