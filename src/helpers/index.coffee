@@ -1,4 +1,4 @@
-export * from "./branch-editor"
+export * from "./branch"
 export * from "./inductor"
 export * from "./pending"
 export * from "./show"

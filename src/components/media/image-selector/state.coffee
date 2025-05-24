@@ -1,3 +1,4 @@
+import $ from "@dashkite/zest"
 import { Image } from "@dashkite/aldera"
 
 import configuration from "#configuration"

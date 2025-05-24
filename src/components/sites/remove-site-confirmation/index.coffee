@@ -7,7 +7,7 @@ import {
 import { component, forms, compact, animations } from "@dashkite/posh"
 
 import { showtime } from "#helpers"
-import state from "#helpers/branch-editor"
+import state from "#helpers/branch"
 
 import events from "./events"
 import logic from "./logic"

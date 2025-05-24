@@ -5,13 +5,13 @@ template = ({ results, term, status }, messages ) ->
 
   open = results? && ( results.length > 0 )
 
-  HTML.tag "vellum-field",
+  HTML.tag "form-field",
     label: "Search"
     hint: "Search Unsplash Images"
     name: "search"
     required: true
     [
-      HTML.tag "vellum-autocomplete",
+      HTML.tag "form-autocomplete",
         name: "term"
         value: term
         data: state: if open then "open" else "closed"

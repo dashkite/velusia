@@ -3,13 +3,13 @@ import { empty } from "./helpers"
 
 template = ({ results, term }) ->
 
-  HTML.tag "vellum-field",
+  HTML.tag "form-field",
     label: "Search"
     hint: "Search for image gadgets"
     name: "search"
     required: true
     [
-      HTML.tag "vellum-autocomplete",
+      HTML.tag "form-autocomplete",
         name: "term"
         value: term
         slot: "input"

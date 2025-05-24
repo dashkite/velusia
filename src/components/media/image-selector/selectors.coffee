@@ -7,10 +7,10 @@ Selectors =
   "file input": "input[type='file']"
 
   "search gadgets": "[data-state='browse gadgets'] 
-    vellum-autocomplete[name='term']"
+    form-autocomplete[name='term']"
 
   "unsplash autocomplete": "[data-state='browse unsplash']
-    vellum-autocomplete[name='term']"
+    form-autocomplete[name='term']"
 
   "unsplash field": "[data-state='browse unsplash']
     vellum-field[name='search']"

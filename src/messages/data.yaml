@@ -5,6 +5,7 @@ select image:
   searching: Searching&hellip;
   not found: No results found
   file uploaded successfully: File uploaded successfully!
+  need more characters: ""
 
 icons:
   theme: palette-line

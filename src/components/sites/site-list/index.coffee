@@ -7,10 +7,13 @@ import {
 import { component, animations } from "@dashkite/posh"
 
 import { Sites } from "@dashkite/aldera"
+import configuration from "#configuration"
 
 import html from "./html"
 import pending from "#helpers/pending"
 import css from "./css"
+
+{ origin } = configuration
 
 class extends do Fn.pipe [
     shadowed
@@ -26,7 +29,7 @@ class extends do Fn.pipe [
   @start ->
     @render pending()
     application = await Registry.get "application"
-    @state = await Sites.View.resolve()
+    @state = await Sites.resolve sites: { origin }
     for await sites from @state.listen()
       links =
         add: application.link name: "add site"

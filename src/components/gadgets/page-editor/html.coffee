@@ -8,7 +8,7 @@ template = ( page ) ->
 
     HTML.div [
 
-      HTML.tag "vellum-field",
+      HTML.tag "form-field",
         name: "name"
         [
           HTML.span slot: "label", "Name"
@@ -17,7 +17,7 @@ template = ( page ) ->
             HTML.input name: "name", value: page.name
         ]
 
-      HTML.tag "vellum-field",
+      HTML.tag "form-field",
         name: "description"
         [
           HTML.span slot: "label", "Description"
