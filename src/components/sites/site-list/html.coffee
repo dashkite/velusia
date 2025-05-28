@@ -13,7 +13,7 @@ template = ({ links, sites }) ->
     if sites.length > 0
       HTML.main do ->
         for { address } in sites
-          HTML.tag "sansa-summarize-site", 
+          HTML.tag "site-summary", 
             exportparts: "L1:L2, L2:L3, L3:L4"
             data: site: address
 

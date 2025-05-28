@@ -8,6 +8,9 @@ select image:
   need more characters: ""
 
 icons:
+
+  edit site: edit-box-line
+  remove site: delete-bin-6-line
   theme: palette-line
   borders: square-line
   colors: palette-line

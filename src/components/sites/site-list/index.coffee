@@ -30,9 +30,11 @@ class extends do Fn.pipe [
     @render pending()
     application = await Registry.get "application"
     @state = await Sites.resolve sites: { origin }
-    for await sites from @state.listen()
-      links =
-        add: application.link name: "add site"
-      @render html { sites, links }
+    for await event from @state.listen()
+      switch event.name
+        when "value"
+          links =
+            add: application.link name: "add site"
+          @render html { sites: event.value.internal, links }
 
 

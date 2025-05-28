@@ -26,7 +26,6 @@ class extends do Fn.pipe [
     .apply ->
       console.log "form submit!"
       profile = ( $ @root ).form.data
-      profile.sites ?= []
       Profile.save profile
       @dispatch "success"
 
