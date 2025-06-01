@@ -48,7 +48,7 @@ build/browser/src/components/media/index.js: hJURaUvB
 build/browser/src/components/sites/site-maker/logic.js: pIlFYH90
 build/browser/src/components/gadgets/remove-gadget-confirmation/events.js: Gfiqb173
 build/browser/src/components/sites/site-list/html.js: 4QA22rT-
-build/browser/src/components/sites/index.js: pmnT5Xdf
+build/browser/src/components/sites/index.js: irkTIAPh
 build/browser/src/components/gadgets/index.js: dqYYl37K
 build/browser/src/components/gadgets/page-editor/logic.js: XhwH7qdQ
 build/browser/src/components/gadgets/remove-gadget-confirmation/index.js: u8oxuei6
@@ -95,5 +95,10 @@ build/browser/src/components/sites/site-composer/html.js: 6gPLQEHQ
 build/browser/src/components/sites/site-summary/css.js: 3jIriUWW
 build/browser/src/components/sites/site-summary/index.js: mcqBr98M
 build/browser/src/components/sites/site-summary/html.js: DPrqGqiS
-build/browser/src/components/sites/site-summary/logic.js: 3kBhmL7l
+build/browser/src/components/sites/site-summary/logic.js: OSsWt5iw
 build/browser/src/components/sites/site-summary/state.js: JMOvTJcB
+build/browser/src/components/sites/inline-site-editor/index.js: LSQMa5EP
+build/browser/src/components/sites/inline-site-editor/logic.js: 5NS4LKiI
+build/browser/src/components/sites/inline-site-editor/html.js: DHEK9Qrv
+build/browser/src/components/sites/inline-site-editor/css.js: N5mHKvxF
+build/browser/src/components/sites/inline-site-editor/state.js: 6IEEySEb

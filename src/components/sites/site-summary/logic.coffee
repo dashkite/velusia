@@ -19,13 +19,14 @@ logic = ( reactor ) ->
           site: value.site.address
     value
 
-  yield from EventReactor
-    .make reactor
-    .bind @
-    .forward "*"
-    .when "connect", -> @render pending()
-    .when "value", ->
-      if event.value.site?
-        @render html decorate event.value
+  yield from do =>
+    EventReactor
+      .make reactor
+      .bind @
+      .forward "*"
+      .when "connect", -> @render pending()
+      .when "value", ( event ) ->
+        if event.value.site?
+          @render html decorate event.value
 
 export default logic
