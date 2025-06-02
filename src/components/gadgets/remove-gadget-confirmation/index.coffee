@@ -6,8 +6,8 @@ import {
 
 import { component, forms, compact, animations } from "@dashkite/posh"
 
-import state from "#helpers/site"
-import { showtime } from "#helpers/showtime"
+import { showtime } from "#helpers"
+import state from "#helpers/branch"
 
 import events from "./events"
 import logic from "./logic"
@@ -19,12 +19,8 @@ class extends do Fn.pipe [
     state, events
   ]
 
-  @tag "remove-site-confirmation"
+  @tag "remove-gadget-confirmation"
 
   @sheets [ component, forms, compact, animations, css ]
 
-  @reactors [
-    showtime
-    logic
-  ]
-
+  @reactors [ showtime, logic ]

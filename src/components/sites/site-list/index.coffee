@@ -35,6 +35,6 @@ class extends do Fn.pipe [
         when "value"
           links =
             add: application.link name: "add site"
-          @render html { sites: event.value.internal, links }
+          @render html { event.value..., links }
 
 

@@ -9,7 +9,7 @@ import { component, icons, animations, forms } from "@dashkite/posh"
 
 import { showtime } from "#helpers/showtime"
 
-import stateful from "./state"
+import stateful from "#helpers/site"
 import logic from "./logic"
 import css from "./css"
 

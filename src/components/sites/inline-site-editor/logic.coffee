@@ -19,7 +19,7 @@ logic = ( reactor ) ->
         $ @root
           .query "input"
           .focus()
-          .select()
+          .select() 
 
     .when "edit title", ->
       @controller[ "edit title" ]()

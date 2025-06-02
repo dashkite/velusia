@@ -1,17 +1,15 @@
 form
+
   header( part = "L1" )
     h1 Connect
-  div
-    .field
-      label
-        span Email
-        input(
-          name = "email"          
-          type = "email"
-          required = "true"
-        )
-        span.error
-          if errors && errors.email
-            = errors.email.message
+
+  main
+    form-field(
+      name = "email"
+      type = "email"
+      required = true
+      error = errors ? ( errors.email ? errors.email.message : undefined ) : undefined 
+    )
+
   footer
     button Connect

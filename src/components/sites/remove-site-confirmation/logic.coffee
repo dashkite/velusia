@@ -1,30 +1,23 @@
-import { Gadgets } from "@dashkite/talisa"
+import EventReactor from "@dashkite/reactive/event-reactor"
+import $ from "@dashkite/zest"
+
 import pending from "#helpers/pending"
 
 import html from "./html"
 
 logic = ( reactor ) ->
 
+  yield from EventReactor
+    .make reactor
+    .bind @
+    .forward "*"
 
-  for await event from reactor
+    .when "connect", -> @render pending()
 
-    switch event.name
+    .when "value", ( event ) ->
+      if event.value.site?
+        @render html event.value.site
 
-      when "connect"
-        @render pending()
-
-      when "value"
-        { branch, internal } = event.value
-        if branch? && internal?
-          if internal.selected?
-            @render html 
-              gadgets: Gadgets.from branch
-              selected: internal.selected
-          else
-            # we should never get here
-            # TODO is there something else we can do?
-            @dispatch "failure"        
-
-    yield event
+  await return
 
 export default logic

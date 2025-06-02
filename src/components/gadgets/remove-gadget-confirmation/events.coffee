@@ -7,6 +7,6 @@ events = ( base ) ->
     @click()
       .matches "[name='remove']"
       .apply ->
-        @state[ "remove site" ]()
+        @state[ "remove selected gadget" ]()
 
 export default events
