@@ -14,7 +14,7 @@ logic = ( reactor ) ->
         @render pending()
 
       when "value"
-        { branch, internal } = event.value
+        { branch, local } = event.value
         if branch?
           @render html 
             gadgets: Gadgets.from branch

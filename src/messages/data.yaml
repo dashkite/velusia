@@ -50,4 +50,6 @@ icons:
   unpin: unpin-line
   moon: moon-line
   sun: sun-line
+
+  error: error-warning-line
   information: question-line

@@ -1,13 +1,13 @@
 import HTML from "@dashkite/domo"
 
-template = ( site ) ->
+template = ({ site }) ->
 
-  [
+  HTML.main class: "prompt", [
 
     HTML.header part: "L1", [
       HTML.h1 "Remove Site"
     ]
-    HTML.main [
+    HTML.section [
       HTML.p [
         "Are you sure you want to delete the site " 
         HTML.em [
@@ -18,8 +18,8 @@ template = ( site ) ->
     ]
     HTML.footer [
       HTML.nav [
-        HTML.button "Remove"
         HTML.a href: "#cancel", "Cancel"
+        HTML.button "Remove"
       ]
     ]
 

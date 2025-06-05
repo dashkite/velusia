@@ -12,7 +12,7 @@ state = ( base ) ->
       { site } = ( $ @dom ).data
       @state = await Site.resolve 
         site: { origin, bindings: { site }}
-        internal: bindings: { site }   
+        local: bindings: { site }   
       @state.listen() 
 
     hide: -> @state.close()

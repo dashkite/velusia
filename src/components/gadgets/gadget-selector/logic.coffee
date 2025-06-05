@@ -9,7 +9,7 @@ logic = ( reactor ) ->
     switch event.name
 
       when "value"
-        { branch, internal: { selected }} = event.value
+        { branch, local: { selected }} = event.value
         if branch?
           @render html 
             gadgets: Gadgets.from branch

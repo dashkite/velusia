@@ -14,9 +14,14 @@ logic = ( reactor ) ->
 
     .when "connect", -> @render pending()
 
-    .when "value", ( event ) ->
-      if event.value.site?
-        @render html event.value.site
+    .when "value", ({ value }) ->
+      @render html value
+
+    .when "remove", ->
+      @controller[ "remove site" ]()
+
+    .when "removed", ->
+      @dispatch "success"
 
   await return
 

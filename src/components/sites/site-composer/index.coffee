@@ -1,4 +1,5 @@
 import * as Fn from "@dashkite/joy/function"
+import $ from "@dashkite/zest"
 import {
   shadowed, renderable, styleable, 
   reactive, eventful
@@ -6,7 +7,7 @@ import {
 
 import { component, forms, animations } from "@dashkite/posh"
 
-import { showtime, validating } from "#helpers"
+import { connect, validating } from "#helpers"
 
 import css from "./css"
 
@@ -29,17 +30,18 @@ class extends do Fn.pipe [
   ]
 
   @reactors [
-    showtime
+    connect
     logic
-  ]
+  ] 
 
   @click()
     .matches "[href='#cancel']"
     .apply -> history.back()
 
   @submit()
+    .intercept()
     .apply ( event ) -> 
-      @state[ "add site" ] do ->
+      @controller[ "add site" ] do ->
         $ event.target
           .form
           .data

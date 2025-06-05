@@ -7,8 +7,8 @@ state = ( base ) ->
   class extends base
 
     show: ->
-      @state = await Sites.resolve sites: { origin }
-      @state.listen()
+      @controller = await Sites.resolve sites: { origin }
+      @controller.listen()
 
     hide: -> @state.close()
 

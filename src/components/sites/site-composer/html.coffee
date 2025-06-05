@@ -10,34 +10,34 @@ template = ({ data, errors }) ->
       ]
     ]
 
-    HTML.div [
+    HTML.section [
 
       HTML.tag "form-field", 
-        name: "title"
         type: "text"
+        name: "title"
+        label: "Title"
+        hint: "The title for your new site"
+        required: true
+        error: errors?.title?.message
         value: data.title
-        [
-          HTML.label slot: "label", "Title"
-          HTML.span slot: "hint", "The title for your site"
-          if errors.title?
-            HTML.span slot: "error", errors.title.message
-        ]
 
-      # HTML.tag "vellum-field",
-      #   name: "description"
-      #   type: "prose"
-      #   value: data.description
-      #   class: "short"
-      #   [
-      #     HTML.label slot: "label", "Description"
-      #     HTML.span slot: "hint", "A brief description of your site"
-      #   ]
+      HTML.tag "form-field",
+        name: "description"
+        label: "Description"
+        hint: "A brief description of your site"
+        error: errors?.description?.message
+        HTML.textarea
+          class: "short"
+          name: "description"
+          slot: "input"
+          required: true
+          value: data.description
 
     ]
 
     HTML.footer [
-      HTML.button "Save"
       HTML.a href: "#cancel", "Cancel"
+      HTML.button "Save"
     ]
 
   ]

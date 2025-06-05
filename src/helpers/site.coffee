@@ -12,7 +12,7 @@ state = ( base ) ->
       { site } = ( $ @dom ).data
       @controller = await Site.resolve 
         site: { origin, bindings: { site }}
-        internal: bindings: { site }   
+        local: bindings: { site }   
       @controller.listen() 
 
 export default state

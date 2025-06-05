@@ -1,12 +1,12 @@
 import HTML from "@dashkite/domo"
 
-template = ({ site, internal }) ->
+template = ({ site, editing }) ->
   [
 
     HTML.header part: "L1", [
 
       HTML.h1 [
-        if internal?.editing == "title"
+        if editing == "title"
           HTML.input
             name: "title"
             type: "text"
@@ -18,7 +18,7 @@ template = ({ site, internal }) ->
 
     HTML.main [ 
       HTML.p [
-        if internal?.editing == "description"
+        if editing == "description"
           HTML.input
             name: "description"
             type: "text"

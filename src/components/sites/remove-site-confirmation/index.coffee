@@ -5,6 +5,7 @@ import {
 } from "@dashkite/wayland"
 
 import { component, forms, compact, animations } from "@dashkite/posh"
+import prompt from "@dashkite/posh/utilities/prompt"
 
 import state from "#helpers/site"
 import { showtime } from "#helpers/showtime"
@@ -21,7 +22,11 @@ class extends do Fn.pipe [
 
   @tag "remove-site-confirmation"
 
-  @sheets [ component, forms, compact, animations, css ]
+  @sheets [ component, forms, compact, animations, prompt, css ]
+
+  @click()
+    .within "button"
+    .send "remove"
 
   @reactors [
     showtime

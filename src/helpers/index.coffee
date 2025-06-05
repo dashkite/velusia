@@ -1,4 +1,5 @@
 export * from "./branch"
+export * from "./connect"
 export * from "./inductor"
 export * from "./pending"
 export * from "./show"
