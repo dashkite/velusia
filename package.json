@@ -57,7 +57,7 @@
     "@dashkite/html-render": "link:../html-render",
     "@dashkite/joy": "0.8.0",
     "@dashkite/messages": "0.6.0",
-    "@dashkite/posh": "link:../posh",
+    "@dashkite/posh": "0.1.0",
     "@dashkite/profile": "0.6.0",
     "@dashkite/reactive": "0.4.0",
     "@dashkite/registry": "0.13.0",
