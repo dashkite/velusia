@@ -15,32 +15,32 @@ importers:
         specifier: link:../domo
         version: link:../domo
       '@dashkite/format-text':
-        specifier: link:../format-text
-        version: link:../format-text
+        specifier: 0.6.0
+        version: 0.6.0
       '@dashkite/html-render':
         specifier: link:../html-render
         version: link:../html-render
       '@dashkite/joy':
-        specifier: link:../joy
-        version: link:../joy
+        specifier: 0.8.0
+        version: 0.8.0
       '@dashkite/messages':
-        specifier: link:../messages
-        version: link:../messages
+        specifier: 0.6.0
+        version: 0.6.0
       '@dashkite/posh':
         specifier: link:../posh
         version: link:../posh
       '@dashkite/profile':
-        specifier: link:../profile
-        version: link:../profile
+        specifier: 0.6.0
+        version: 0.6.0
       '@dashkite/reactive':
-        specifier: link:../reactive
-        version: link:../reactive
+        specifier: 0.4.0
+        version: 0.4.0
       '@dashkite/registry':
-        specifier: link:../registry
-        version: link:../registry
+        specifier: 0.13.0
+        version: 0.13.0
       '@dashkite/talisa':
-        specifier: link:../talisa
-        version: link:../talisa
+        specifier: 0.5.0
+        version: 0.5.0
       '@dashkite/validator':
         specifier: link:../validator
         version: link:../validator
@@ -649,6 +649,15 @@ packages:
   '@dashkite/assert@0.3.0':
     resolution: {integrity: sha512-x0lHMF8k2CkFrx7gmtT8qoZ3GPk+RPPLRG5RcKMheqS7zDPEDPZ7IkHzXt2kq7LyvTMZZ+TI3suW44+Ms6Mqbg==}
 
+  '@dashkite/format-text@0.5.0':
+    resolution: {integrity: sha512-v2Ri1PmnsXeAamAp2k8EMtYkweyKigIqLWYdmWu9wtpsGLhavQcxQ1BCHkUQrFjLDFq8QcHKRBWS3E449SW/Lw==}
+
+  '@dashkite/format-text@0.6.0':
+    resolution: {integrity: sha512-OTA3nUQz8VApitlVN5IsCNtN1pbVWjUoxJeJupPiCQrtv38gxYjuaEIrhLztZNAFDddaENXsTJZ5M4OBG2Y5nw==}
+
+  '@dashkite/generic@0.5.0':
+    resolution: {integrity: sha512-XGLML0mHLgRKVprGgIUJS7EM7x0kMZGcQsvhGcZNfd1jl+zrWESgExxzU0O/KGbD7YOXJEhJ4aYoO0ZPBmqELg==}
+
   '@dashkite/genie-clean@0.9.0':
     resolution: {integrity: sha512-cR5IaFycabxIOH0XrExG5DCrm91milsdPqt104+AcIFEtpthwQ55lgOkS660tC8l7SxnwZzMZbZxHP3oK0iT0A==}
 
@@ -666,8 +675,17 @@ packages:
   '@dashkite/joy@0.3.16':
     resolution: {integrity: sha512-dsU0us4j1Pb+zceoBvLbnZ2PbmULkJUtM2vtWLxKmoc1DE4w9SVTiPTe6JWvF0A0vk90ldv+Lc9qEA5x3O+DtQ==}
 
+  '@dashkite/joy@0.5.0':
+    resolution: {integrity: sha512-kaDNKKS6v5r3vukOkh54aarrhiTHwbcKZZW8eDav5FhT6u8RRrmSaFeAbwLzGntdPScaEhqg/PLrvtPHOy9OlQ==}
+
   '@dashkite/joy@0.6.0':
     resolution: {integrity: sha512-6lFhlzHQ3SWqD1o8RcT6prWmiU5KHhdmG/t8AaGChRfYCYOahDmmLtaglMmpNJVWnve8nFL7BBC03+hnTl9HUw==}
+
+  '@dashkite/joy@0.7.0':
+    resolution: {integrity: sha512-1sldJtFRJJwwm1yb2vrhUNvs9ns30ROS5E7KwBTkJ+yPVNsbgIFbakYn7AQSaEsLs/ZdqbHW7dWx+Wo/uG4D7w==}
+
+  '@dashkite/joy@0.8.0':
+    resolution: {integrity: sha512-ahSu2HEkyY5CxHdGw9wALlVrng1Hk2zuKXMAnZ/GC3q1Wbq8CqtgVyJxfYxM7H0gSVgyXy4bZ9xulh5sASeuEg==}
 
   '@dashkite/kaiko@0.3.3':
     resolution: {integrity: sha512-XnAvVr9y2MsDqMLr4A24vkLF7Iuq3E8RjHEEpqhe29P5NevVX9jXKcXUStNMp9MSJbjHd2pqUNiM5Vvdja9ggg==}
@@ -680,6 +698,27 @@ packages:
 
   '@dashkite/masonry@0.13.0':
     resolution: {integrity: sha512-qGP0Ortn8tzBTY9BRv965V5IIhJCmsNMTjLq0X7Pk80lBgNROc+tV/5BXjziBZ9CG7fcJ5h3ZvCsl1f6byfsFQ==}
+
+  '@dashkite/messages@0.6.0':
+    resolution: {integrity: sha512-S4X+fYcQpqQzBj86E9hEMBuTfas4J/7qvdd0Sa9WyGBGHqNBCznacnXrET286GI7IUZAC0iN2sR2CgV22/6eIQ==}
+
+  '@dashkite/parse@0.7.0':
+    resolution: {integrity: sha512-lhU3LuRKCUVOgswBHjTvLnGIzhOk+QIxUQVSRNv+U1iPSzjpypFd/EBL5UQQ4qqU2w9u8M63FIBFHcxRiB/oDw==}
+
+  '@dashkite/profile@0.6.0':
+    resolution: {integrity: sha512-O9pobe+zTeLgn0T4I0RZyEYM2Fz6/sji6KXC0bob+aoX+ms45sbScJT9px4vELNYNmF4qDoaBLjUlJAx/m7kPw==}
+
+  '@dashkite/reactive@0.4.0':
+    resolution: {integrity: sha512-jwZdG9y2R41MIcBEndnD87JdfpUTzvgkC9x+1mJcy1WaW93apJVS5CZsGkFJ3KeiRotZBKoRILqb1eaJq5R4SA==}
+
+  '@dashkite/registry@0.13.0':
+    resolution: {integrity: sha512-1paZW2pIuV3ZmFBhL2ZGphN6Uauq0fXL7C0aZZSsFeLR8ZOPIAd0TvZ2BMIqYxISF+F/09eyJO9GrhmhjKbKOg==}
+
+  '@dashkite/storage@0.5.0':
+    resolution: {integrity: sha512-8wK0GhL3+6He9TT/0zVbx0d0TF1GLOQZCFPxIMSI4/riBWmrPo0nJ2VX4KiBZQsYA/+hpVIP1WCO2PHjoMaXDw==}
+
+  '@dashkite/talisa@0.5.0':
+    resolution: {integrity: sha512-/BBU62jcfD0mrxAGQSUXrMYiGm2m7FJCt4+UCC5KgK0516MJ2lo3Xhg5mRfIkrfadekTXAENcyFTAGKh/L6Xfg==}
 
   '@dashkite/zephyr@0.2.0':
     resolution: {integrity: sha512-l3Fm9nyOIp1yBnv4IzGOKVgo1/UucU5WLvsqAfcP2jEVlE4AgpPkODssyloxTyC3N+bhcz1DXqC/7KokI1eVjA==}
@@ -2154,6 +2193,18 @@ snapshots:
     dependencies:
       '@dashkite/joy': 0.6.0
 
+  '@dashkite/format-text@0.5.0':
+    dependencies:
+      '@dashkite/joy': 0.5.0
+
+  '@dashkite/format-text@0.6.0':
+    dependencies:
+      '@dashkite/joy': 0.7.0
+
+  '@dashkite/generic@0.5.0':
+    dependencies:
+      '@dashkite/joy': 0.5.0
+
   '@dashkite/genie-clean@0.9.0':
     dependencies:
       '@dashkite/masonry': 0.13.0
@@ -2193,7 +2244,13 @@ snapshots:
 
   '@dashkite/joy@0.3.16': {}
 
+  '@dashkite/joy@0.5.0': {}
+
   '@dashkite/joy@0.6.0': {}
+
+  '@dashkite/joy@0.7.0': {}
+
+  '@dashkite/joy@0.8.0': {}
 
   '@dashkite/kaiko@0.3.3': {}
 
@@ -2219,6 +2276,35 @@ snapshots:
       fast-glob: 3.3.3
     transitivePeerDependencies:
       - supports-color
+
+  '@dashkite/messages@0.6.0':
+    dependencies:
+      '@dashkite/format-text': 0.5.0
+      '@dashkite/generic': 0.5.0
+      '@dashkite/joy': 0.7.0
+
+  '@dashkite/parse@0.7.0':
+    dependencies:
+      '@dashkite/joy': 0.3.16
+
+  '@dashkite/profile@0.6.0':
+    dependencies:
+      '@dashkite/storage': 0.5.0
+
+  '@dashkite/reactive@0.4.0':
+    dependencies:
+      '@dashkite/joy': 0.7.0
+      '@dashkite/parse': 0.7.0
+
+  '@dashkite/registry@0.13.0': {}
+
+  '@dashkite/storage@0.5.0': {}
+
+  '@dashkite/talisa@0.5.0':
+    dependencies:
+      '@dashkite/format-text': 0.5.0
+      '@dashkite/generic': 0.5.0
+      '@dashkite/joy': 0.7.0
 
   '@dashkite/zephyr@0.2.0':
     dependencies:
