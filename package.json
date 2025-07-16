@@ -51,7 +51,7 @@
     "@dashkite/genie-yaml": "0.8.0"
   },
   "dependencies": {
-    "@dashkite/aldera": "link:../aldera",
+    "@dashkite/aldera": "0.1.0",
     "@dashkite/domo": "link:../domo",
     "@dashkite/format-text": "0.6.0",
     "@dashkite/html-render": "link:../html-render",
