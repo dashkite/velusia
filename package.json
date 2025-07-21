@@ -65,6 +65,6 @@
     "@dashkite/validator": "link:../validator",
     "@dashkite/vellum": "link:../vellum",
     "@dashkite/wayland": "link:../wayland",
-    "@dashkite/zest": "link:../zest"
+    "@dashkite/zest": "0.1.0"
   }
 }
