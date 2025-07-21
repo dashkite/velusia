@@ -62,7 +62,7 @@
     "@dashkite/reactive": "0.4.0",
     "@dashkite/registry": "0.13.0",
     "@dashkite/talisa": "0.5.0",
-    "@dashkite/validator": "link:../validator",
+    "@dashkite/validator": "0.1.0",
     "@dashkite/vellum": "link:../vellum",
     "@dashkite/wayland": "link:../wayland",
     "@dashkite/zest": "0.1.0"

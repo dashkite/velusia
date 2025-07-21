@@ -42,8 +42,8 @@ importers:
         specifier: 0.5.0
         version: 0.5.0
       '@dashkite/validator':
-        specifier: link:../validator
-        version: link:../validator
+        specifier: 0.1.0
+        version: 0.1.0
       '@dashkite/vellum':
         specifier: link:../vellum
         version: link:../vellum
@@ -1165,6 +1165,9 @@ packages:
 
   '@dashkite/utf8@1.0.1':
     resolution: {integrity: sha512-58HZrEijYUG9p8SAf4o/NR7U3qUq//9XbkQ7T5cHIY/RFjCVg9vpWZlHXkcbZp7v3CAMJgEGVXt/5/upvOBQAw==}
+
+  '@dashkite/validator@0.1.0':
+    resolution: {integrity: sha512-UQv5IM/ejBR7sRCIa/WRtqtjCuUbmTbHYa9VFuBtn5ZO+9qXmO0v5lbV+hLECvL3YXmyDXPfr7R/7bemKSB58Q==}
 
   '@dashkite/xrl@0.4.0':
     resolution: {integrity: sha512-5dpqsBtOFb25iAitvH56mSUeNFpKvWluH2Y6WP72MLhIh9lY9GxK7yyo1AFAGQ42v/Km3Jb9txBkz2m1sJR5Cw==}
@@ -4831,6 +4834,11 @@ snapshots:
       '@dashkite/url-codex': 0.1.1
 
   '@dashkite/utf8@1.0.1': {}
+
+  '@dashkite/validator@0.1.0':
+    dependencies:
+      '@dashkite/reactive': 0.3.0
+      '@dashkite/zest': 0.1.0
 
   '@dashkite/xrl@0.4.0':
     dependencies:
