@@ -48,8 +48,8 @@ importers:
         specifier: link:../vellum
         version: link:../vellum
       '@dashkite/wayland':
-        specifier: link:../wayland
-        version: link:../wayland
+        specifier: 0.1.0
+        version: 0.1.0
       '@dashkite/zest':
         specifier: 0.1.0
         version: 0.1.0
@@ -921,6 +921,9 @@ packages:
   '@dashkite/dolores@0.8.0':
     resolution: {integrity: sha512-ga+AxqsQcUjW3D5J6mCQqTU7GqJsmnlT9OfqYrmPA3lGJSjk0GqJRQb3RIjoqjjXVszeK8vAW3RdJPx0W7OhNw==}
 
+  '@dashkite/dominator@0.1.0':
+    resolution: {integrity: sha512-jSxv9CyVDNRdCJMssB4Nzzl4yoUnPxCaOcgls5lsMEBIB4afbZUDXRM2hvp7ZO70Rr4vlGtDz6JJBhgiIW3BeA==}
+
   '@dashkite/drn-loader@0.7.0':
     resolution: {integrity: sha512-40Hg1xVvXQkwp/cEmKyUT4o7r1jRyxWjleZkMQLbJbNoAfnrInyhaDB7iH9uN3VxMyIHS3hwGFx7s1rNGihZcA==}
 
@@ -1133,6 +1136,9 @@ packages:
   '@dashkite/storage@0.5.0':
     resolution: {integrity: sha512-8wK0GhL3+6He9TT/0zVbx0d0TF1GLOQZCFPxIMSI4/riBWmrPo0nJ2VX4KiBZQsYA/+hpVIP1WCO2PHjoMaXDw==}
 
+  '@dashkite/stylist@0.3.0':
+    resolution: {integrity: sha512-o6Naq1/uvWTRAjmVsje9DwUVnpGb71EAVkYyq2Ex3anpsFjf/US1r9lcqJ4tRU4KK3ekKPgjT877W7evFGW73w==}
+
   '@dashkite/talisa@0.4.0':
     resolution: {integrity: sha512-C5PoNBn6JfhmzqYW9K1c1tZx2lW2EpFJy/encYGCxB2uaPYqr3DBtvDUixf5cSbPrYMjSijE19kBb5hvjB9fhA==}
 
@@ -1168,6 +1174,9 @@ packages:
 
   '@dashkite/validator@0.1.0':
     resolution: {integrity: sha512-UQv5IM/ejBR7sRCIa/WRtqtjCuUbmTbHYa9VFuBtn5ZO+9qXmO0v5lbV+hLECvL3YXmyDXPfr7R/7bemKSB58Q==}
+
+  '@dashkite/wayland@0.1.0':
+    resolution: {integrity: sha512-z5OvmjDu0SSPO+/pnFS5yWTcXZEvstnErd3mn2vHt9qkCKJmfvRNQl2lyjIOxOsWAcdk4KtOi/JJHOg+uHimrw==}
 
   '@dashkite/xrl@0.4.0':
     resolution: {integrity: sha512-5dpqsBtOFb25iAitvH56mSUeNFpKvWluH2Y6WP72MLhIh9lY9GxK7yyo1AFAGQ42v/Km3Jb9txBkz2m1sJR5Cw==}
@@ -1686,6 +1695,12 @@ packages:
 
   deep-is@0.1.4:
     resolution: {integrity: sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==}
+
+  diffhtml@1.0.0-beta.19:
+    resolution: {integrity: sha512-joNKc9SMaR9qOmci7b5iruBOa/7ddDEeUfl6xP6no+F7sCyFDuPFME5BLcz4g9mIAALPRRatqH1Q1tVgeHGsEw==}
+
+  diffhtml@1.0.0-beta.20:
+    resolution: {integrity: sha512-xSSwGb2dkQsTc7Bl910iySH65PkzsCtowfVGMfrmc2fEwvYrhJUpIEIx+3mpZ1wMWVt+t/0ltVwrjQkMJotxLg==}
 
   doctrine@3.0.0:
     resolution: {integrity: sha512-yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==}
@@ -4403,6 +4418,13 @@ snapshots:
       - aws-crt
       - encoding
 
+  '@dashkite/dominator@0.1.0':
+    dependencies:
+      '@dashkite/flashdom': 0.1.0
+      '@dashkite/generic': 0.5.0
+      '@dashkite/joy': 0.7.0
+      diffhtml: 1.0.0-beta.20
+
   '@dashkite/drn-loader@0.7.0': {}
 
   '@dashkite/drn-sky@0.5.0(@aws-sdk/credential-provider-node@3.529.0)':
@@ -4786,6 +4808,10 @@ snapshots:
 
   '@dashkite/storage@0.5.0': {}
 
+  '@dashkite/stylist@0.3.0':
+    dependencies:
+      '@dashkite/joy': 0.3.16
+
   '@dashkite/talisa@0.4.0':
     dependencies:
       '@dashkite/format-text': 0.3.0
@@ -4839,6 +4865,16 @@ snapshots:
     dependencies:
       '@dashkite/reactive': 0.3.0
       '@dashkite/zest': 0.1.0
+
+  '@dashkite/wayland@0.1.0':
+    dependencies:
+      '@dashkite/dominator': 0.1.0
+      '@dashkite/generic': 0.5.0
+      '@dashkite/joy': 0.7.0
+      '@dashkite/reactive': 0.3.0
+      '@dashkite/stylist': 0.3.0
+      '@dashkite/zest': 0.1.0
+      diffhtml: 1.0.0-beta.19
 
   '@dashkite/xrl@0.4.0':
     dependencies:
@@ -5476,6 +5512,10 @@ snapshots:
       ms: 2.1.3
 
   deep-is@0.1.4: {}
+
+  diffhtml@1.0.0-beta.19: {}
+
+  diffhtml@1.0.0-beta.20: {}
 
   doctrine@3.0.0:
     dependencies:
