@@ -21,8 +21,8 @@ importers:
         specifier: 0.8.0
         version: 0.8.0
       '@dashkite/messages':
-        specifier: 0.6.0
-        version: 0.6.0
+        specifier: 0.9.2
+        version: 0.9.2
       '@dashkite/posh':
         specifier: 0.1.0
         version: 0.1.0
@@ -1088,8 +1088,8 @@ packages:
   '@dashkite/mercury@0.3.1':
     resolution: {integrity: sha512-2lcYFK21f93Az7t8JR+2gJNKt/iJh2aTVRieQZ8zK0Ej2VXvUdad+xzMaclI74BOZl3N8885aImgdWFQVG+E9Q==}
 
-  '@dashkite/messages@0.6.0':
-    resolution: {integrity: sha512-S4X+fYcQpqQzBj86E9hEMBuTfas4J/7qvdd0Sa9WyGBGHqNBCznacnXrET286GI7IUZAC0iN2sR2CgV22/6eIQ==}
+  '@dashkite/messages@0.9.2':
+    resolution: {integrity: sha512-FUxlPe2dYU8UH5MbdXoQscBsINVQSUFcbzhmRSni60K6nmXdL/A0IFU6s8oc61C6Zmhyl0OQKbMxy6nP+uGWbA==}
 
   '@dashkite/montrose@0.3.0':
     resolution: {integrity: sha512-19RHysPzuGDJ/ZlGeU4DdaZHie9+EVLmJEniVSZvlOFGWTa/ZKFpcDAukT3FZciwaoMl+gc5OaC8qbNHyWaXXg==}
@@ -1709,7 +1709,6 @@ packages:
 
   bun@1.2.19:
     resolution: {integrity: sha512-P70KUfH9cvgcl8Hjvamr98NinEatV23yX6qaY7z1+3rBPdds0oVX0u6FfrYnWc8F3ayFQ4do6/6xBLWY4itJkQ==}
-    cpu: [arm64, x64, aarch64]
     os: [darwin, linux, win32]
     hasBin: true
 
@@ -4869,7 +4868,7 @@ snapshots:
       '@dashkite/katana': 0.4.8
       es6-url-template: 3.0.2
 
-  '@dashkite/messages@0.6.0':
+  '@dashkite/messages@0.9.2':
     dependencies:
       '@dashkite/format-text': 0.5.0
       '@dashkite/generic': 0.5.0
