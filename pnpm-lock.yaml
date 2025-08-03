@@ -39,17 +39,17 @@ importers:
         specifier: ^0.5.0
         version: 0.5.0
       '@dashkite/validator':
-        specifier: ^0.1.5
-        version: 0.1.5
+        specifier: ^0.1.6
+        version: 0.1.6
       '@dashkite/vellum':
-        specifier: ^0.10.6
-        version: 0.10.6
+        specifier: ^0.10.7
+        version: 0.10.7
       '@dashkite/wayland':
-        specifier: ^0.1.5
-        version: 0.1.5
+        specifier: ^0.1.6
+        version: 0.1.6
       '@dashkite/zest':
-        specifier: ^0.1.5
-        version: 0.1.5
+        specifier: ^0.1.6
+        version: 0.1.6
     devDependencies:
       '@dashkite/amen':
         specifier: ^0.5.0
@@ -1187,14 +1187,14 @@ packages:
   '@dashkite/utf8@1.0.1':
     resolution: {integrity: sha512-58HZrEijYUG9p8SAf4o/NR7U3qUq//9XbkQ7T5cHIY/RFjCVg9vpWZlHXkcbZp7v3CAMJgEGVXt/5/upvOBQAw==}
 
-  '@dashkite/validator@0.1.5':
-    resolution: {integrity: sha512-hyP/HD5sQ3DC61KQ7Jn8+w7IytaDNz3pRlPgRlnLpwWwXQivg9+GTOcS81W45sUxNV+ID/trHYQShMLmAXMRSA==}
+  '@dashkite/validator@0.1.6':
+    resolution: {integrity: sha512-gEsJLoBTExhVp0EHHop6K+1yVH/fXhfTjj7l7Drqicmm4f6BT3Ywm5+hjRnpR/zs+9phNUh60ue4kye21XeKig==}
 
-  '@dashkite/vellum@0.10.6':
-    resolution: {integrity: sha512-P/RdKFrVSOGScnORwHWlygHHFSRpVO2qlHapI58sdAFLViUIKWKE/gwd/K0AAfxz+PBQsT1AYelrXLJMJY8jMg==}
+  '@dashkite/vellum@0.10.7':
+    resolution: {integrity: sha512-dc5PQxRZPuNs1SkOcQEz377E+KeIuOqF7W0SATX1gSEE/c/T4bUvfdbOUoEEjf7+0zLtOagphlqz1/Onl4xoRA==}
 
-  '@dashkite/wayland@0.1.5':
-    resolution: {integrity: sha512-cPeUtssc6rbfZrQNRSyfgs+NJIIYfp+wJyCsvA5BDnqoKxq9IiZ9upmsRVN72EC4mRCh0hjQ4m8wjNaVCNT89A==}
+  '@dashkite/wayland@0.1.6':
+    resolution: {integrity: sha512-KXmu9S0HxOzXqRKUJOhzLW66eSxNj1sgwkUow7ks2fQ/4qoAwutj1XsiGcpcNp10VKtvj2Z9rU4uEdITuZo1vQ==}
 
   '@dashkite/xrl@0.4.0':
     resolution: {integrity: sha512-5dpqsBtOFb25iAitvH56mSUeNFpKvWluH2Y6WP72MLhIh9lY9GxK7yyo1AFAGQ42v/Km3Jb9txBkz2m1sJR5Cw==}
@@ -1208,8 +1208,8 @@ packages:
   '@dashkite/zephyr@0.9.0':
     resolution: {integrity: sha512-2GbFGwJkyXpwK1jPl9ZO4l6M6bU5vs0F4r7s1lVvx2DwMU1jiTWWBXpHwy92Gz9NE1aH5gohICrgC47aKvKccQ==}
 
-  '@dashkite/zest@0.1.5':
-    resolution: {integrity: sha512-qhsg6gskc5jwsmvbJ7v1Q36xvKlQfpptCCn15EtF/aec+BS0v9a0Bgr9lxbcLC/psOvF5rQHinu5oYqdowt93g==}
+  '@dashkite/zest@0.1.6':
+    resolution: {integrity: sha512-zYQ8b3MoTGKZMcHplaNe5zzpQr/49BCMl/WtT5EkVz9bps/NAwUv88mcRD/B0XmrUD9nrEEH4YyD1ZzLWFNXcA==}
 
   '@deno/shim-deno-test@0.5.0':
     resolution: {integrity: sha512-4nMhecpGlPi0cSzT67L+Tm+GOJqvuk8gqHBziqcUQOarnuIax1z96/gJHCSIz2Z0zhxE6Rzwb3IZXPtFh51j+w==}
@@ -4951,12 +4951,12 @@ snapshots:
 
   '@dashkite/utf8@1.0.1': {}
 
-  '@dashkite/validator@0.1.5':
+  '@dashkite/validator@0.1.6':
     dependencies:
       '@dashkite/reactive': 0.3.0
-      '@dashkite/zest': 0.1.5
+      '@dashkite/zest': 0.1.6
 
-  '@dashkite/vellum@0.10.6':
+  '@dashkite/vellum@0.10.7':
     dependencies:
       '@dashkite/dominator': 0.1.6
       '@dashkite/domo': 0.2.5
@@ -4970,19 +4970,19 @@ snapshots:
       '@dashkite/registry': 0.13.0
       '@dashkite/rio': 0.1.2
       '@dashkite/rio-oxygen': 0.7.0
-      '@dashkite/wayland': 0.1.5
-      '@dashkite/zest': 0.1.5
+      '@dashkite/wayland': 0.1.6
+      '@dashkite/zest': 0.1.6
       dompurify: 2.5.8
       remarkable: 2.0.1
 
-  '@dashkite/wayland@0.1.5':
+  '@dashkite/wayland@0.1.6':
     dependencies:
       '@dashkite/dominator': 0.1.6
       '@dashkite/generic': 0.5.0
       '@dashkite/joy': 0.7.0
       '@dashkite/reactive': 0.3.0
       '@dashkite/stylist': 0.3.0
-      '@dashkite/zest': 0.1.5
+      '@dashkite/zest': 0.1.6
       diffhtml: 1.0.0-beta.30
 
   '@dashkite/xrl@0.4.0':
@@ -5004,7 +5004,7 @@ snapshots:
       '@dashkite/joy': 0.3.16
       js-yaml: 4.1.0
 
-  '@dashkite/zest@0.1.5':
+  '@dashkite/zest@0.1.6':
     dependencies:
       '@dashkite/flashdom': 0.1.5
       '@dashkite/generic': 0.9.4
