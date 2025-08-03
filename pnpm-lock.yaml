@@ -42,8 +42,8 @@ importers:
         specifier: ^0.1.7
         version: 0.1.7
       '@dashkite/vellum':
-        specifier: ^0.10.7
-        version: 0.10.7
+        specifier: ^0.10.8
+        version: 0.10.8
       '@dashkite/wayland':
         specifier: ^0.1.7
         version: 0.1.7
@@ -1124,8 +1124,8 @@ packages:
   '@dashkite/rio-oxygen@0.7.0':
     resolution: {integrity: sha512-iDylh3wu7IX2I5woDQOgmIz5wugTMRhHG2lSprcZCgjnFeUtkOUMCk2pKJlI05mfG2OIqzd9NmKvlgicDtuC3w==}
 
-  '@dashkite/rio@0.1.2':
-    resolution: {integrity: sha512-sB6tOMDlm7w/sLugMIZABylCJtHdaDg6FC76YyAOMK9dLldVGLPdFpJpVP10IxzRr+XPETzoLHqUNJkvzW2raA==}
+  '@dashkite/rio@0.1.3':
+    resolution: {integrity: sha512-jGY0MCywtKHRoIiWjxlnriWZ/I2mG/3pBcLAiK8Gxu/ZB+t2LhlwGE1cQ2HpNhljvrAQcXHp9EYOR82R1/p13g==}
 
   '@dashkite/runes-client@0.3.0':
     resolution: {integrity: sha512-8bKgopN+j1tgBaQhv/YetnwRb1SPaz2GKlcx1dVD73OgNrOOKCQC63Br1NYdi61VVCX4yeHAbPTOVXjkuUlNsg==}
@@ -1190,8 +1190,8 @@ packages:
   '@dashkite/validator@0.1.7':
     resolution: {integrity: sha512-xbBQEd9w56QhI75f4XvsK/L/qa6sOXPDc0+6a75VmOjDp2yNOTpC+wtxHpLBjGo3iEDuVG9rnAuLI4qyrwx5ig==}
 
-  '@dashkite/vellum@0.10.7':
-    resolution: {integrity: sha512-dc5PQxRZPuNs1SkOcQEz377E+KeIuOqF7W0SATX1gSEE/c/T4bUvfdbOUoEEjf7+0zLtOagphlqz1/Onl4xoRA==}
+  '@dashkite/vellum@0.10.8':
+    resolution: {integrity: sha512-DBDLHmjz3f2rkobTz/2BuxnYORm0dMcAg0PoerfLkrWFyBIpIVUZHFd5BoKo+3+Wxst8QDQ7vN2zUXoeq3cMSg==}
 
   '@dashkite/wayland@0.1.7':
     resolution: {integrity: sha512-+14w90bbsMOK32qfezCwgfXG17PRp9U9ZQwFGHtHG3AuJ9HXhtDUeoI0IoZPTuORSF49EHY6GLVOu+OJ4Tq5qg==}
@@ -4855,7 +4855,7 @@ snapshots:
       '@dashkite/joy': 0.7.0
       '@dashkite/katana': 0.4.8
 
-  '@dashkite/rio@0.1.2':
+  '@dashkite/rio@0.1.3':
     dependencies:
       '@dashkite/joy': 0.3.16
       '@dashkite/katana': 0.4.8
@@ -4956,7 +4956,7 @@ snapshots:
       '@dashkite/reactive': 0.3.0
       '@dashkite/zest': 0.1.6
 
-  '@dashkite/vellum@0.10.7':
+  '@dashkite/vellum@0.10.8':
     dependencies:
       '@dashkite/dominator': 0.1.6
       '@dashkite/domo': 0.2.5
@@ -4968,7 +4968,7 @@ snapshots:
       '@dashkite/quark': 2.6.5
       '@dashkite/reactive': 0.4.0
       '@dashkite/registry': 0.13.0
-      '@dashkite/rio': 0.1.2
+      '@dashkite/rio': 0.1.3
       '@dashkite/rio-oxygen': 0.7.0
       '@dashkite/wayland': 0.1.7
       '@dashkite/zest': 0.1.6
