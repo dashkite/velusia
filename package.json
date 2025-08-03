@@ -61,9 +61,9 @@
     "@dashkite/reactive": "^0.4.0",
     "@dashkite/registry": "^0.13.0",
     "@dashkite/talisa": "^0.5.0",
-    "@dashkite/validator": "^0.1.6",
+    "@dashkite/validator": "^0.1.7",
     "@dashkite/vellum": "^0.10.7",
-    "@dashkite/wayland": "^0.1.6",
+    "@dashkite/wayland": "^0.1.7",
     "@dashkite/zest": "^0.1.6"
   }
 }
