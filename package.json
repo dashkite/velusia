@@ -52,7 +52,7 @@
   },
   "dependencies": {
     "@dashkite/aldera": "^0.1.11",
-    "@dashkite/domo": "^0.2.7",
+    "@dashkite/domo": "^0.2.8",
     "@dashkite/format-text": "^0.6.0",
     "@dashkite/joy": "^0.8.0",
     "@dashkite/messages": "^0.9.18",
@@ -62,8 +62,8 @@
     "@dashkite/registry": "^0.13.0",
     "@dashkite/talisa": "^0.5.0",
     "@dashkite/validator": "^0.1.10",
-    "@dashkite/vellum": "^0.10.20",
+    "@dashkite/vellum": "^0.10.21",
     "@dashkite/wayland": "^0.1.10",
-    "@dashkite/zest": "^0.1.8"
+    "@dashkite/zest": "^0.1.9"
   }
 }
