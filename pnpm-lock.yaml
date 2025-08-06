@@ -21,8 +21,8 @@ importers:
         specifier: ^0.8.0
         version: 0.8.0
       '@dashkite/messages':
-        specifier: ^0.9.18
-        version: 0.9.18
+        specifier: ^0.9.19
+        version: 0.9.19
       '@dashkite/posh':
         specifier: ^0.1.0
         version: 0.1.0
@@ -39,11 +39,11 @@ importers:
         specifier: ^0.5.0
         version: 0.5.0
       '@dashkite/validator':
-        specifier: ^0.1.11
-        version: 0.1.11
+        specifier: ^0.1.12
+        version: 0.1.12
       '@dashkite/vellum':
-        specifier: ^0.10.22
-        version: 0.10.22
+        specifier: ^0.10.23
+        version: 0.10.23
       '@dashkite/wayland':
         specifier: ^0.1.12
         version: 0.1.12
@@ -1088,8 +1088,8 @@ packages:
   '@dashkite/mercury@0.3.1':
     resolution: {integrity: sha512-2lcYFK21f93Az7t8JR+2gJNKt/iJh2aTVRieQZ8zK0Ej2VXvUdad+xzMaclI74BOZl3N8885aImgdWFQVG+E9Q==}
 
-  '@dashkite/messages@0.9.18':
-    resolution: {integrity: sha512-5uKcTCv5m5qvY3KP0gXVlr2ruQfFk1oWnAk9YNYXgQp0Tp0XAVe2VOy57rGjgJhbyYLg4iGP+8ynKTW8taFlvg==}
+  '@dashkite/messages@0.9.19':
+    resolution: {integrity: sha512-LSmsOwWP3qouR+hKgqfi4eXKs1YnQejw2JXLnn4yPJ/kCaWxLX/J/r/DYjIRjDE0neztgqT8jdU0Tia4CaPw9A==}
 
   '@dashkite/montrose@0.3.10':
     resolution: {integrity: sha512-KvatZ/mrSBrDdib1G86HqAU+gPZuwIxvpXMATj9hLCfQKM1QPkPHXOCkuUNtpQRyBeuGEAOuDYYvGdzm71e59g==}
@@ -1187,11 +1187,11 @@ packages:
   '@dashkite/utf8@1.0.1':
     resolution: {integrity: sha512-58HZrEijYUG9p8SAf4o/NR7U3qUq//9XbkQ7T5cHIY/RFjCVg9vpWZlHXkcbZp7v3CAMJgEGVXt/5/upvOBQAw==}
 
-  '@dashkite/validator@0.1.11':
-    resolution: {integrity: sha512-Cenb8MC/BA5azFsGI+9jW9bZ3jYN84FFq0pZXDXA1W/z0AiOvfaTMmCQXfsj96CXzRQphNTWm3YsmqT/NXRHHw==}
+  '@dashkite/validator@0.1.12':
+    resolution: {integrity: sha512-Bt95CZeeBwOBQXKSdoHoIiOfu/gWtNpHJ8YcKuTPGQR/pwfCI/E0Z3GWDxp8Txiswpn+JJReCPArfQKyiF3nJQ==}
 
-  '@dashkite/vellum@0.10.22':
-    resolution: {integrity: sha512-tVL2HZKKbSNJgSYgOFdyTCVGAthxMgUOqwn+7e0FlQu1LBbiDppFX2JCNSRc3/UqHxRvIFCg81FxGOY8W1NT9g==}
+  '@dashkite/vellum@0.10.23':
+    resolution: {integrity: sha512-9mW9E94kUQlrn7mnqT7WV1e/rq4bAPUbSpH54gzQShWz51m2hdRnOPQIhr+33gvJvn/TnsJAx90Nxbpd3FHz1A==}
 
   '@dashkite/wayland@0.1.12':
     resolution: {integrity: sha512-GafJHxPsPDxHEfRLi8KZZ2NMNsQx3JlkkgRvBJY/tLosoHcY6+/KUKhxOo8TX8zCcoMOZoooW7vQIAVaAGrrvA==}
@@ -4801,7 +4801,7 @@ snapshots:
       '@dashkite/katana': 0.4.8
       es6-url-template: 3.0.2
 
-  '@dashkite/messages@0.9.18':
+  '@dashkite/messages@0.9.19':
     dependencies:
       '@dashkite/format-text': 0.5.0
       '@dashkite/generic': 0.5.0
@@ -4951,12 +4951,12 @@ snapshots:
 
   '@dashkite/utf8@1.0.1': {}
 
-  '@dashkite/validator@0.1.11':
+  '@dashkite/validator@0.1.12':
     dependencies:
       '@dashkite/reactive': 0.3.0
       '@dashkite/zest': 0.1.10
 
-  '@dashkite/vellum@0.10.22':
+  '@dashkite/vellum@0.10.23':
     dependencies:
       '@dashkite/dominator': 0.1.10
       '@dashkite/domo': 0.2.8
