@@ -21,8 +21,8 @@ importers:
         specifier: ^0.8.0
         version: 0.8.0
       '@dashkite/messages':
-        specifier: ^0.9.27
-        version: 0.9.27
+        specifier: ^0.9.28
+        version: 0.9.28
       '@dashkite/posh':
         specifier: ^0.1.0
         version: 0.1.0
@@ -42,8 +42,8 @@ importers:
         specifier: ^0.1.16
         version: 0.1.16
       '@dashkite/vellum':
-        specifier: ^0.10.32
-        version: 0.10.32
+        specifier: ^0.10.33
+        version: 0.10.33
       '@dashkite/wayland':
         specifier: ^0.1.16
         version: 0.1.16
@@ -1088,8 +1088,8 @@ packages:
   '@dashkite/mercury@0.3.1':
     resolution: {integrity: sha512-2lcYFK21f93Az7t8JR+2gJNKt/iJh2aTVRieQZ8zK0Ej2VXvUdad+xzMaclI74BOZl3N8885aImgdWFQVG+E9Q==}
 
-  '@dashkite/messages@0.9.27':
-    resolution: {integrity: sha512-tVqXQofp4rMEjgYVssgngE2xSFW3vyTC0STIvUTb4DxXBYrFkVzcYmtEbGghpS5VkiqE21mb0FQCdkpNwk/DfA==}
+  '@dashkite/messages@0.9.28':
+    resolution: {integrity: sha512-BjUC4ccdMbhAzFGmM3mMig9LefX0QNMLogNt0OegFEx/7XzV4q45RJMCDwQ1CgxE2Obtf72gB97WrnooxZljhw==}
 
   '@dashkite/montrose@0.3.13':
     resolution: {integrity: sha512-XYWDiDj0BpvBHRIrfIWMlh0BRJK6uMAAW81VFZgQR0eDmmUXT+O5gEUnwCTd57USgN8o8O41gmvt3NJCjPt6pQ==}
@@ -1190,8 +1190,8 @@ packages:
   '@dashkite/validator@0.1.16':
     resolution: {integrity: sha512-lzRA34enuNQ6lS6c5U+IkaD6WnPECBEvXF0h9a/dKeRozE1P5itN0I0iuTiO/61Ou+KHWiTDVi3pIzxdsCy1qQ==}
 
-  '@dashkite/vellum@0.10.32':
-    resolution: {integrity: sha512-wMdjMuVn3T05tJvC6YsnB1Ot0etByGIvdFGG6JZ5s0KbRfkC5LIeUphQIA4YVQ8NlhuzsSn438aeU8lmKOX7Rw==}
+  '@dashkite/vellum@0.10.33':
+    resolution: {integrity: sha512-UjLYYyy/TOD981L+09pDrklIT7XpCFVd+ytewvw+fOpEm2Cxr9ag+BMBhxszdaIQfh472zQYt4C6d5oEUvVJeA==}
 
   '@dashkite/wayland@0.1.16':
     resolution: {integrity: sha512-C4iG4qydEoEu7nfWT7V+aJasOVJg05so/I86B4p2PuEwWL9/0EflzdQA3FI+tzeVz/Zyn0IDj+wUEkMfTrtbpg==}
@@ -4801,7 +4801,7 @@ snapshots:
       '@dashkite/katana': 0.4.8
       es6-url-template: 3.0.2
 
-  '@dashkite/messages@0.9.27':
+  '@dashkite/messages@0.9.28':
     dependencies:
       '@dashkite/format-text': 0.5.0
       '@dashkite/generic': 0.5.0
@@ -4956,7 +4956,7 @@ snapshots:
       '@dashkite/reactive': 0.3.0
       '@dashkite/zest': 0.1.13
 
-  '@dashkite/vellum@0.10.32':
+  '@dashkite/vellum@0.10.33':
     dependencies:
       '@dashkite/dominator': 0.1.13
       '@dashkite/domo': 0.2.11
