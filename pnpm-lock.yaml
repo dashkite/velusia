@@ -21,8 +21,8 @@ importers:
         specifier: ^0.8.0
         version: 0.8.0
       '@dashkite/messages':
-        specifier: ^0.9.26
-        version: 0.9.26
+        specifier: ^0.9.27
+        version: 0.9.27
       '@dashkite/posh':
         specifier: ^0.1.0
         version: 0.1.0
@@ -1088,8 +1088,8 @@ packages:
   '@dashkite/mercury@0.3.1':
     resolution: {integrity: sha512-2lcYFK21f93Az7t8JR+2gJNKt/iJh2aTVRieQZ8zK0Ej2VXvUdad+xzMaclI74BOZl3N8885aImgdWFQVG+E9Q==}
 
-  '@dashkite/messages@0.9.26':
-    resolution: {integrity: sha512-WNq1TDffSYDnNv0z+EYqDYkc1blAFhoMYBlwVNgzqfhTBEfbbHXsvx1gNoOYVbuGkS+iqxo9IAnc4p+s9z5KdA==}
+  '@dashkite/messages@0.9.27':
+    resolution: {integrity: sha512-tVqXQofp4rMEjgYVssgngE2xSFW3vyTC0STIvUTb4DxXBYrFkVzcYmtEbGghpS5VkiqE21mb0FQCdkpNwk/DfA==}
 
   '@dashkite/montrose@0.3.13':
     resolution: {integrity: sha512-XYWDiDj0BpvBHRIrfIWMlh0BRJK6uMAAW81VFZgQR0eDmmUXT+O5gEUnwCTd57USgN8o8O41gmvt3NJCjPt6pQ==}
@@ -4801,7 +4801,7 @@ snapshots:
       '@dashkite/katana': 0.4.8
       es6-url-template: 3.0.2
 
-  '@dashkite/messages@0.9.26':
+  '@dashkite/messages@0.9.27':
     dependencies:
       '@dashkite/format-text': 0.5.0
       '@dashkite/generic': 0.5.0
