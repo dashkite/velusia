@@ -1124,8 +1124,8 @@ packages:
   '@dashkite/rio-oxygen@0.7.0':
     resolution: {integrity: sha512-iDylh3wu7IX2I5woDQOgmIz5wugTMRhHG2lSprcZCgjnFeUtkOUMCk2pKJlI05mfG2OIqzd9NmKvlgicDtuC3w==}
 
-  '@dashkite/rio@0.1.20':
-    resolution: {integrity: sha512-TJK5oTY4CngwEHTq66UHEP8U15yl+q7XPIpYUMUlk10XSw/mYYRTNIgNi1+1ns4pg7uD8+q3gW/MsXOYbIaOSQ==}
+  '@dashkite/rio@0.1.21':
+    resolution: {integrity: sha512-xRUiW9BSINboqzctZqxBvJK82OATYwt2ZQWDBpq4zqcWN4fjiGv4QY0XGoAOtHPYWmmULPRk0LrjktOAmn9jvg==}
 
   '@dashkite/runes-client@0.3.0':
     resolution: {integrity: sha512-8bKgopN+j1tgBaQhv/YetnwRb1SPaz2GKlcx1dVD73OgNrOOKCQC63Br1NYdi61VVCX4yeHAbPTOVXjkuUlNsg==}
@@ -4855,7 +4855,7 @@ snapshots:
       '@dashkite/joy': 0.7.0
       '@dashkite/katana': 0.4.8
 
-  '@dashkite/rio@0.1.20':
+  '@dashkite/rio@0.1.21':
     dependencies:
       '@dashkite/joy': 0.3.16
       '@dashkite/katana': 0.4.8
@@ -4968,7 +4968,7 @@ snapshots:
       '@dashkite/quark': 2.6.10
       '@dashkite/reactive': 0.4.0
       '@dashkite/registry': 0.13.0
-      '@dashkite/rio': 0.1.20
+      '@dashkite/rio': 0.1.21
       '@dashkite/rio-oxygen': 0.7.0
       '@dashkite/wayland': 0.1.16
       '@dashkite/zest': 0.1.13
