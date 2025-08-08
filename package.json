@@ -45,26 +45,26 @@
     "@dashkite/genie-clean": "^0.9.0",
     "@dashkite/genie-coffee": "^0.9.0",
     "@dashkite/genie-drn": "^0.12.18",
-    "@dashkite/genie-module": "^0.5.39",
+    "@dashkite/genie-module": "^0.5.40",
     "@dashkite/genie-pug": "^0.4.1",
     "@dashkite/genie-release": "^0.5.0",
     "@dashkite/genie-stylus": "^0.8.0",
     "@dashkite/genie-yaml": "^0.8.0"
   },
   "dependencies": {
-    "@dashkite/aldera": "^0.1.20",
-    "@dashkite/domo": "^0.2.17",
+    "@dashkite/aldera": "^0.1.21",
+    "@dashkite/domo": "^0.2.18",
     "@dashkite/format-text": "^0.6.0",
     "@dashkite/joy": "^0.8.0",
-    "@dashkite/messages": "^0.9.36",
+    "@dashkite/messages": "^0.9.37",
     "@dashkite/posh": "^0.1.0",
     "@dashkite/profile": "^0.6.0",
     "@dashkite/reactive": "^0.4.0",
     "@dashkite/registry": "^0.13.0",
     "@dashkite/talisa": "^0.5.0",
-    "@dashkite/validator": "^0.1.22",
-    "@dashkite/vellum": "^0.10.42",
-    "@dashkite/wayland": "^0.1.23",
-    "@dashkite/zest": "^0.1.20"
+    "@dashkite/validator": "^0.1.24",
+    "@dashkite/vellum": "^0.10.44",
+    "@dashkite/wayland": "^0.1.24",
+    "@dashkite/zest": "^0.1.21"
   }
 }
