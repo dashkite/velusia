@@ -52,7 +52,7 @@
     "@dashkite/genie-yaml": "^0.8.0"
   },
   "dependencies": {
-    "@dashkite/aldera": "^0.1.21",
+    "@dashkite/aldera": "^0.1.22",
     "@dashkite/domo": "^0.2.18",
     "@dashkite/format-text": "^0.6.0",
     "@dashkite/joy": "^0.8.0",
